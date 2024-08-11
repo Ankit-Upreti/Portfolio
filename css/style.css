@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav>ul{
+    list-style-type: none;
+    
+}
+
+body{
+    min-width: 1000px;
+    background-color: #1f1f1f;
+    color: #e5e5e5;
+}
+ul>li>a{
+    color: #00a8e8;
+    text-decoration:none ;
+    scroll-behavior: smooth;
+}
+ul>li>a:visited{
+    color: #00a8e8;
+    text-decoration: none;
+}
+
+button>a{
+    text-decoration: none;
+    color:#e8e8e8;
+}
+
+li{
+    padding: 1.5rem;
+    display: inline;
+    margin-right: 5.5rem;
+}
+
+nav{
+    /* background-color: #0a192f; */
+    color: #00a8e8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.typing-container{
+    margin-left: 15rem;
+    margin-top: 10rem;
+    font-size: 2.3rem;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #E5E5E5;
+
+}
+.typing-container:first-letter{
+    font-size: 5.6rem;
+}
+p.header{
+    margin-left: 17rem;
+    width: 50rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+} 
+
+.image{
+    background-color: white;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin: 3rem auto -7rem auto;
+    display: block;
+    border:5px solid #00a8e8;
+}
+
+footer{
+    background-color: #253D5B;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.card>h2>a{
+    color:#E5E5E5 ;
+    text-decoration: none;
+}
+.card>h2>a:hover{
+    color:#E5E5E5 ;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.social>p{
+    margin: 9rem;
+}
+.icons{
+    background-color: #1f1f1f;
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius:50% ;
+    margin: 0.5rem;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    
+}
+img.social-icon-1{
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius:50% ;
+}
+img.social-icon-3{
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius:50% ;
+    background-color: white;
+}
+img.social-icon-4{
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius:50% ;
+}
+img.social-icon-2{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius:50% ;
+    position: relative;
+    top: 0.8rem;
+}
+div.social{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 5rem;
+}

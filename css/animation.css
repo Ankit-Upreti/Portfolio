@@ -1,0 +1,15 @@
+.cursor {
+    display: inline-block;
+    background-color: #00A8E8; /* Electric Blue cursor color */
+    width: 2px;
+    animation: blink 0.7s steps(2) infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+
+
+
